@@ -6,7 +6,8 @@ const blockedSites = [
 "tiin.vn",
 "vnexpress.net",
 "kenh14.vn",
-"tinhte.vn"
+"tinhte.vn",
+"news.google.com"
 ];
 
 chrome.webRequest.onBeforeRequest.addListener(

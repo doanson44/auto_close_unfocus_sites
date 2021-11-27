@@ -2,12 +2,12 @@ const blockedSites = [
 "chotot.com",
 "voz.vn",
 "facebook.com",
-"9gag.com",
-"tiin.vn",
-"vnexpress.net",
-"kenh14.vn",
 "tinhte.vn",
-"news.google.com"
+"news.google.com",
+"instagram.com",
+"9gag.com",
+"vnexpress.net",
+"kenh14.vn"
 ];
 
 chrome.webRequest.onBeforeRequest.addListener(
